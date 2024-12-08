@@ -1,0 +1,32 @@
+{
+  "name": "cdp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@biconomy/account": "^3.1.3",
+    "@biconomy/bundler": "^3.1.3",
+    "@biconomy/common": "^3.1.3",
+    "@biconomy/core-types": "^3.1.3",
+    "@biconomy/modules": "^3.1.3",
+    "@biconomy/paymaster": "^3.1.3",
+    "@coinbase/cdp-langchain": "^0.0.8",
+    "@langchain/langgraph": "^0.2.27",
+    "@langchain/openai": "^0.3.14",
+    "ethers": "^5.5.4",
+    "node-redis-pubsub": "^5.0.0",
+    "redis": "^4.7.0"
+  }
+}
